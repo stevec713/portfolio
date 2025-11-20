@@ -90,6 +90,10 @@ body {
     overflow: hidden;
 }
 
+#skills, #contact {
+    grid-column: 1 / 2;
+}
+
 
 /* HEADER STYLES */
 header {
@@ -129,4 +133,20 @@ nav a {
 main {
     display: grid;
     grid-template-columns: 90% 10%;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+#skills svg {
+    width: 80px;
+    height: auto;
+}
+
+#skills svg:hover {
+    fill: gold;
+    stroke: gold;
 }
