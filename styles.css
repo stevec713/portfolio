@@ -70,12 +70,14 @@ table {
     opacity: 10%;
 }
 
-h1, h2, h3 {
-    font-family: cursive;
+h1, h2 {
+    font-family: "Corinthia", cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "PT Serif", serif;
     font-size: 1.2rem;
     line-height: 1.6;
     font-weight: 400;
@@ -111,7 +113,7 @@ header {
     grid-template-columns: 1fr;
     padding: 80px 0 10px 0;
     width: 90%;
-    gap: 10px;
+    gap: 5px;
 }
 
 header h1, header p {
@@ -152,10 +154,6 @@ main {
 
 .right {
     grid-template-columns: 10% 90%;
-}
-
-h2 {
-    padding-bottom: 5px;
 }
 
 #skills, #contact {
