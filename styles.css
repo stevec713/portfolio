@@ -55,19 +55,8 @@ table {
 }
 
 :root {
-    --lt-background-color: #e5e5e5;
+    --lt-background-color: #ffffff;
     --dk-background-color: #222;
-}
-
-.light {
-    background-color: var(--lt-background-color);
-    color: #000;
-}
-
-.dark {
-    background-color: var(--dk-background-color);
-    color: #fff;
-    opacity: 10%;
 }
 
 h1, h2 {
@@ -77,7 +66,7 @@ h1, h2 {
 }
 
 a {
-    color: black;
+    color: var(--dk-background-color);
     text-decoration: none;
 }
 
@@ -148,7 +137,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 3;
-    background-color: white;
+    background-color: var(--lt-background-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -187,7 +176,6 @@ main {
 #projects {
     grid-column: 2 / 3;
     grid-row: 1 / -1;
-    padding: 10px;
     padding: 80px 0 10px 0;
 }
 
@@ -251,7 +239,7 @@ a:hover {
 }
 
 #clickableSection:hover {
-    background-color: #000;
+    background-color: var(--dk-background-color);
     cursor:pointer;
     background-color: rgba(0, 0, 0, 0.222);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
