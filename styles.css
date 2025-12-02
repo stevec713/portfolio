@@ -257,6 +257,12 @@ a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+/* FOCUS */
+a:focus {
+    outline: 3px solid gold;
+    outline-offset: 2px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 800px) {
     header {
