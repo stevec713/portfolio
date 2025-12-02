@@ -258,6 +258,15 @@ a:hover {
 }
 
 /* FOCUS */
+.hidden:focus {
+    left: 10px;
+    position: relative;
+    top: 80px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
 a:focus {
     outline: 3px solid gold;
     outline-offset: 2px;
