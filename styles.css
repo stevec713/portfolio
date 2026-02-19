@@ -201,6 +201,7 @@ main {
 #projects img {
     width: 100%;
     border-radius: 8px;
+    height: auto;
 }
 
 #skills ul {
